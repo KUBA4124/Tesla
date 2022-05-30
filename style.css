@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppis', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/image-3.png");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    padding: 0 7%;
+    transition: background-image 1s;
+}
+nav{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+.logo{
+    width: 320px;
+    cursor: pointer;
+}
+nav ul {
+    flex: 1;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px ;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav .btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 30px ;
+    margin-right: 7%;
+}
+.info{
+    width: 100%;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+}
+.info div{
+    margin: 0 20px;
+}
+.info div h2{
+    font-size: 44px;
+    font-weight: 400;
+}
+.info .line{
+    flex: 1;
+    background: white;
+    height: 4px;
+}
